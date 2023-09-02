@@ -8,4 +8,10 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    if a<b and a<c:
+        return "First number."
+    elif b<a and b<c:
+        return "Second number."
+    elif c<a and c<b:
+        return "Third number."
+print(main(8,4,2))
