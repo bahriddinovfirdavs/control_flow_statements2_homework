@@ -7,4 +7,11 @@ def main(a,b):
     Returns:
         int: return answer.
     """
-    return
+    if a>b:
+        return "First number."
+    elif a==b :
+        return 0
+    else:
+        return "Second number."
+print(main(int(input()),int(input())))
+    
