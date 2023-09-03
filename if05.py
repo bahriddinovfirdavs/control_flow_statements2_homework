@@ -2,7 +2,7 @@ def main(n):
     """
         Find the largest digit of the five-digit number.
     Args:
-        n: The largest number within a five-digit number.
+        n: Five-digit number.
     Returns:
         int: return answer.
     """
@@ -21,4 +21,4 @@ def main(n):
         return d
     else:
         return e
-print(" The largest number within a five-digit number.",main(int(input())))
+print(" Five-digit number.",main(int(input())))
