@@ -8,10 +8,10 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    if b>a<c:
+    if b>a>c:
         return a
-    elif a>b<c:
+    elif a>b>c:
         return b
-    elif a>c<b:
+    elif a>c>b:
         return c
 print(main(8,6,4))
