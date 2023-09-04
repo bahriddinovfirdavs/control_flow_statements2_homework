@@ -13,5 +13,5 @@ def main(a,b):
         return 0
     else:
         return "Second number."
-print(main(int(input()),int(input())))
+print(main(2,2))
     

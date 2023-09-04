@@ -21,4 +21,4 @@ def main(n):
         return d
     else:
         return e
-print(" Five-digit number.",main(int(input())))
+print(" Five-digit number.",main(5))
