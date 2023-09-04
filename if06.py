@@ -31,4 +31,3 @@ def main(n):
         return 2
     if m==e:
         return 1
-print(main(int(input())))
