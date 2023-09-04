@@ -9,9 +9,9 @@ def main(a,b,c):
         int: return answer.
     """
     if a<b and a<c:
-        return "First number."
+        return a
     elif b<a and b<c:
-        return "Second number."
+        return b
     elif c<a and c<b:
-        return "Third number."
+        return c
 print(main(8,4,2))

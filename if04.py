@@ -8,10 +8,10 @@ def main(a,b):
         int: return answer.
     """
     if a>b:
-        return "First number."
+        return a
     elif a==b :
         return 0
     else:
-        return "Second number."
+        return b
 print(main(2,2))
     
