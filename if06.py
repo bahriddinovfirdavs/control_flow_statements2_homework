@@ -11,14 +11,24 @@ def main(n):
     c=(n//100)%10
     d=(n//10)%10
     e=n%10
-    if a>b and a>c and a>d and a>e:
-        return a
-    elif b>a and b>c and b>d and b>e:
-        return b
-    elif c>b and c>a and c>d and c>e:
-        return c
-    elif d>b and d>c and d>a and d>e:
-        return d
-    else:
-        return e
-print(main(5))
+    m=a
+    if b>m:
+        m=b
+    if c>m:
+        m=c
+    if d>m:
+        m=d
+
+    if e>m:
+        m=e
+    if m==a:
+        return 5
+    if m==b:
+        return 4
+    if m==c:
+        return 3
+    if m==d:
+        return 2
+    if m==e:
+        return 1
+print(main(int(input())))

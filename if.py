@@ -13,10 +13,5 @@ def main(a,b,c):
         s=b
     if c>s:
         s=c
-
-    m=a   
-    if b<m:
-        s=b
-    if c<m:
-        m=c
-    return a+b+c-m-s
+    return s
+print(main(2,5,4))
