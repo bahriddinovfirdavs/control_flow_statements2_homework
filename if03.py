@@ -13,11 +13,9 @@ def main(a,b,c):
         s=b
     if c>s:
         s=c
-
     m=a   
     if b<m:
-        s=b
+        m=b
     if c<m:
         m=c
     return a+b+c-m-s
-print(main(32,43,19))
