@@ -20,3 +20,4 @@ def main(a,b,c):
     if c<m:
         m=c
     return a+b+c-m-s
+print(main(32,43,19))
